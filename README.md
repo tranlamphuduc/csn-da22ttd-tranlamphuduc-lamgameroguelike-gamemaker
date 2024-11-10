@@ -25,7 +25,7 @@ Genshin Impact là một tựa game nhập vai hành động được phát hàn
 
 ---
 ## Giới Thiệu Về Repositories của tôi
-Đây là nơi tôi để toàn bộ thư mục liên quan đến source game, các file báo cáo và những công cụ mà tôi đã dùng trong quá trình làm game. Toàn bộ thư mục nằm ở branches master trong repositories nay. Dưới đây là miêu tả chi tiết:
+Đây là nơi tôi để toàn bộ thư mục liên quan đến source game, các file báo cáo và những công cụ mà tôi đã dùng trong quá trình làm game. Toàn bộ thư mục nằm ở branches master trong repositories này. Dưới đây là miêu tả chi tiết:
 - **src:** Đây là nơi lưu source liên quan đến game, file backup và các sprite(các model nhân vật mà tôi đã vẽ).
 - **thesis:** Đây là nơi chứa các tập tin tài liệu văn bản của Đồ án.
 - **progress-report:** Đây là nơi chứa các báo cáo tiến độ.
