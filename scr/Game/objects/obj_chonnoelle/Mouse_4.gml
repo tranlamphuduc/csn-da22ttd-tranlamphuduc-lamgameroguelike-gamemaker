@@ -1,0 +1,1 @@
+global.nhanvat_duocchon = 1;
