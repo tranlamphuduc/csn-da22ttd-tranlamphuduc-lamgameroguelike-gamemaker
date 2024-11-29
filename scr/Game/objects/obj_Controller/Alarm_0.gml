@@ -8,7 +8,7 @@ with(obj_quai){
 	if(obj_noelle.x > x){ image_xscale = 1; }
 	else{ image_xscale = -1; }
 	depth     = -y;
-	if(instance_exists(obj_lencap)){ 
+	if(instance_exists(obj_lencap)){
 		speed = 0; 
 		image_speed = 0;
 	}

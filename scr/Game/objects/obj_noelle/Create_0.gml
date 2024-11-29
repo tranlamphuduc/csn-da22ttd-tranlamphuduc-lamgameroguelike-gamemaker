@@ -31,6 +31,15 @@ aim_dir = 0;
 	vp_1=0; vp_2=0; vp_3=0; vp_4=0; vp_5=0; vp_6=0; vp_7=0;
 	VatPhamConLai = 5;
 
+max_hp = 400;    // Máu tối đa
+hp = max_hp;     // Máu hiện tại
+
+
+damage_delay = 0;  // Biến dùng để tính thời gian trễ
+damage_cooldown = 30;  // Số bước (frames) trễ trước khi mất máu, ví dụ 30 frame ~ 1 giây (ở 30fps)
+
+
+
 
 // bánh xe lửa
 if (!instance_exists(obj_banhxelua)) {
