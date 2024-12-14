@@ -47,3 +47,4 @@ else
 	    skill_1_is_active = false;  // Reset kỹ năng sau khi bắn
 	}
 }
+

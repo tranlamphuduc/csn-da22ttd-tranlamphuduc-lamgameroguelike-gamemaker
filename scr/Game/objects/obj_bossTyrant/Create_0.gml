@@ -11,3 +11,5 @@ target_x = 0;               // Vị trí mục tiêu x
 target_y = 0;               // Vị trí mục tiêu y
 
 facing = 1;                 // Hướng quái: 1 là phải, -1 là trái
+// Đảm bảo đối tượng không bị vô hiệu hóa khi ra khỏi camera
+instance_deactivate_object(self);

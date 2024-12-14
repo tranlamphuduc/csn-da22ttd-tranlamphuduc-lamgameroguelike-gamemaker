@@ -1,13 +1,23 @@
-// Khởi tạo trạng thái và biến
-state = "idle";             // Trạng thái ban đầu
-cooldown_timer = 0;         // Bộ đếm thời gian chờ để kích hoạt kỹ năng
-time_to_skill = 10 * room_speed; // Thời gian để kích hoạt kỹ năng (10 giây)
+// Biến di chuyển
+move_speed = 1; // Tốc độ di chuyển của boss
+target = noone; // Mục tiêu (nhân vật)
 
-warning_timer = 0;          // Bộ đếm thời gian cảnh báo
-normal_speed = 2;           // Tốc độ di chuyển bình thường
-dash_speed = 4;             // Tốc độ lao vào
+// Biến trạng thái
+is_moving = true; // Boss có thể di chuyển hay không
+skill_active = false; // Kiểm tra trạng thái skill
 
-target_x = 0;               // Vị trí mục tiêu x
-target_y = 0;               // Vị trí mục tiêu y
+// Biến thời gian
+time_to_skill = 420; // 7 giây (60 steps = 1 giây)
+skill_warning_duration = 60; // 1 giây cảnh báo
+skill_length = 1000; // Độ dài của tia laser
 
-facing = 1;                 // Hướng quái: 1 là phải, -1 là trái
+// Biến cho skill
+skill_target_x = 0; // Vị trí X cố định của nhân vật khi boss dùng skill
+skill_target_y = 0; // Vị trí Y cố định của nhân vật khi boss dùng skill
+
+// Màu sắc
+warning_color = c_red; // Màu cảnh báo
+laser_color = c_white; // Màu laser
+// Đảm bảo đối tượng không bị vô hiệu hóa khi ra khỏi camera
+instance_deactivate_object(self);
+

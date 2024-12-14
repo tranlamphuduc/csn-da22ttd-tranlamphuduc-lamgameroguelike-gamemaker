@@ -1,5 +1,7 @@
 // Khởi tạo biến
-is_time_stopped = false;  // Đồng hồ bắt đầu chạy
-start_ticks = 0;
-elapsed_ticks = 0;  // Tính số ticks đã trôi qua
-is_started = false;
+formatted_minutes = 0;
+formatted_seconds = 0;
+
+giay = 0;
+phut = 0;
+count_up = false;

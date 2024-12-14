@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"spr_cancauditich",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":78,
   "bbox_left":8,
   "bbox_right":72,
-  "bbox_top":3,
+  "bbox_top":43,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

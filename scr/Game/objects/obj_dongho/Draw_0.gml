@@ -7,4 +7,4 @@ y = camera_y + 34;
 
 // Hiển thị đồng hồ
 draw_set_color(c_white);
-draw_text(camera_x, camera_y, formatted_minutes);
+draw_text(camera_x, camera_y, formatted_minutes+ ":" + formatted_seconds);

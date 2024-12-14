@@ -3,8 +3,7 @@ if(instance_exists(obj_lencap)){ exit; }
 
 xp    += 1;
 if (xp >= xpNext){
-	xp = 1;
-	xpNext = 1;
+	xp = 0;
 	var item_sprites = [
         [spr_Kaboom_1, spr_Kaboom_2, spr_Kaboom_3, spr_Kaboom_4, spr_Kaboom_5],
         [spr_buoidienbatdau_1, spr_buoidienbatdau_2, spr_buoidienbatdau_3, spr_buoidienbatdau_4, spr_buoidienbatdau_5],

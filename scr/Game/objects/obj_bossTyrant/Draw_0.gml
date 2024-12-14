@@ -8,5 +8,5 @@ if (facing == 1) {
 // Vẽ đường cảnh báo nếu đang "charging"
 if (state == "charging") {
     draw_set_color(c_red);
-    draw_line_width(x, y, target_x, target_y, 5); // Vẽ đường cảnh báo
+    draw_line_width(x, y, target_x, target_y, 10); // Vẽ đường cảnh báo
 }
