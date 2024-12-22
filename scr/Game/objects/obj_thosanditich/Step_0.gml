@@ -9,6 +9,11 @@ if (instance_exists(obj_lencap)) {
 }
 else
 {
+	if (obj_noelle.x > x) {
+	    image_xscale = 1; 
+	} else {
+	    image_xscale = -1;
+	}
 	image_speed = 1;
 	move_speed = 1;
 	if (is_moving && !skill_active) {
@@ -37,7 +42,7 @@ else
 	        skill_target_x = target.x;
 	        skill_target_y = target.y;
 
-	        time_to_skill = 420; // Reset thời gian cho lần dùng skill tiếp theo
+	        time_to_skill = 360; // Reset thời gian cho lần dùng skill tiếp theo
 	    }
 	} else if (skill_active) {
 	    // Nếu skill đang kích hoạt

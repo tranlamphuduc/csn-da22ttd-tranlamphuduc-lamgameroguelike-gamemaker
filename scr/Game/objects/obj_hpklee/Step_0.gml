@@ -1,3 +1,5 @@
+
+
 // Lấy tọa độ của camera
 var camera_x = camera_get_view_x(view_camera[0]) -235;
 var camera_y = camera_get_view_y(view_camera[0]);

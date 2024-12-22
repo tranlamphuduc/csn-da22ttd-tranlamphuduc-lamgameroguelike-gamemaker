@@ -1,6 +1,8 @@
 // obj_kinhnghiem: Step
+
 hp = obj_noelle.hp; 
 maxhpt = obj_noelle.max_hp; 
+
 
 
 

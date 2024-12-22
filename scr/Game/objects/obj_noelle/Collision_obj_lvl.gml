@@ -4,23 +4,53 @@ if(instance_exists(obj_lencap)){ exit; }
 xp    += 1;
 if (xp >= xpNext){
 	xp = 0;
-	var item_sprites = [
-        [spr_Kaboom_1, spr_Kaboom_2, spr_Kaboom_3, spr_Kaboom_4, spr_Kaboom_5],
-        [spr_buoidienbatdau_1, spr_buoidienbatdau_2, spr_buoidienbatdau_3, spr_buoidienbatdau_4, spr_buoidienbatdau_5],
-        [spr_bomnay_1, spr_bomnay_2, spr_bomnay_3, spr_bomnay_4, spr_bomnay_5],
-        [spr_tanghp_1, spr_tanghp_2, spr_tanghp_3, spr_tanghp_4, spr_tanghp_5],
-        [spr_tangdame_1, spr_tangdame_2, spr_tangdame_3, spr_tangdame_4, spr_tangdame_5],
-        [spr_tangtoc_1, spr_tangtoc_2, spr_tangtoc_3, spr_tangtoc_4, spr_tangtoc_5],
-        [spr_banhxelua_1, spr_banhxelua_2, spr_banhxelua_3, spr_banhxelua_4, spr_banhxelua_5],
-		[spr_themora]
-    ];
 	
+	if(global.nhanvat_duocchon == 1)
+	{
+		var item_sprites = [
+	        [spr_vanlai_1, spr_vanlai_2, spr_vanlai_3, spr_vanlai_4, spr_vanlai_5],
+	        [spr_buoidienbatdau_1, spr_buoidienbatdau_2, spr_buoidienbatdau_3, spr_buoidienbatdau_4, spr_buoidienbatdau_5],
+	        [spr_bomnay_1, spr_bomnay_2, spr_bomnay_3, spr_bomnay_4, spr_bomnay_5],
+	        [spr_tanghp_1, spr_tanghp_2, spr_tanghp_3, spr_tanghp_4, spr_tanghp_5],
+	        [spr_tangdame_1, spr_tangdame_2, spr_tangdame_3, spr_tangdame_4, spr_tangdame_5],
+	        [spr_tangtoc_1, spr_tangtoc_2, spr_tangtoc_3, spr_tangtoc_4, spr_tangtoc_5],
+	        [spr_banhxelua_1, spr_banhxelua_2, spr_banhxelua_3, spr_banhxelua_4, spr_banhxelua_5],
+			[spr_themora]
+	    ];
+	}
+	if(global.nhanvat_duocchon == 2)
+	{
+		var item_sprites = [
+	        [spr_Kaboom_1, spr_Kaboom_2, spr_Kaboom_3, spr_Kaboom_4, spr_Kaboom_5],
+	        [spr_buoidienbatdau_1, spr_buoidienbatdau_2, spr_buoidienbatdau_3, spr_buoidienbatdau_4, spr_buoidienbatdau_5],
+	        [spr_bomnay_1, spr_bomnay_2, spr_bomnay_3, spr_bomnay_4, spr_bomnay_5],
+	        [spr_tanghp_1, spr_tanghp_2, spr_tanghp_3, spr_tanghp_4, spr_tanghp_5],
+	        [spr_tangdame_1, spr_tangdame_2, spr_tangdame_3, spr_tangdame_4, spr_tangdame_5],
+	        [spr_tangtoc_1, spr_tangtoc_2, spr_tangtoc_3, spr_tangtoc_4, spr_tangtoc_5],
+	        [spr_banhxelua_1, spr_banhxelua_2, spr_banhxelua_3, spr_banhxelua_4, spr_banhxelua_5],
+			[spr_themora]
+	    ];
+	}
+	if(global.nhanvat_duocchon == 3)
+	{
+		var item_sprites = [
+	        [spr_luuthien_1, spr_luuthien_2, spr_luuthien_3, spr_luuthien_4, spr_luuthien_5],
+	        [spr_buoidienbatdau_1, spr_buoidienbatdau_2, spr_buoidienbatdau_3, spr_buoidienbatdau_4, spr_buoidienbatdau_5],
+	        [spr_bomnay_1, spr_bomnay_2, spr_bomnay_3, spr_bomnay_4, spr_bomnay_5],
+	        [spr_tanghp_1, spr_tanghp_2, spr_tanghp_3, spr_tanghp_4, spr_tanghp_5],
+	        [spr_tangdame_1, spr_tangdame_2, spr_tangdame_3, spr_tangdame_4, spr_tangdame_5],
+	        [spr_tangtoc_1, spr_tangtoc_2, spr_tangtoc_3, spr_tangtoc_4, spr_tangtoc_5],
+	        [spr_banhxelua_1, spr_banhxelua_2, spr_banhxelua_3, spr_banhxelua_4, spr_banhxelua_5],
+			[spr_themora]
+	    ];
+	}
+
 	var _vx = camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0])/2);
 	var _vy = camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0])/2);
 
 	
 // Hàm chọn ngẫu nhiên 3 vũ khí	
-	SoDuocRandomRa = []; 
+	var SoDuocRandomRa = []; 
 	if(SoVatPhamDaChon < 5)
 	{
 		while (array_length(SoDuocRandomRa) < 3) 

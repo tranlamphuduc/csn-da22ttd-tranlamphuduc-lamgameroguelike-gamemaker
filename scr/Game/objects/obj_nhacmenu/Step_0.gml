@@ -1,5 +1,5 @@
 // Kiểm tra các room có nhạc nền chung
-if room == Menu || room == Tuychinh || room == Nangcap || room == Chonmap || room == Chonnhanvat {
+if room == Menu || room == Tuychinh || room == Nangcap || room == Chonmap || room == Chonnhanvat || room = thua || room = Thang{
     if global.menu_music == noone {
 		global.menu_music = snd_menu; 
         audio_play_sound(snd_menu, global.music_volume, true);
@@ -12,6 +12,7 @@ if room == Menu || room == Tuychinh || room == Nangcap || room == Chonmap || roo
     }
 }
 
+	
 
 if room == Choi {
     if global.menu_music == noone {

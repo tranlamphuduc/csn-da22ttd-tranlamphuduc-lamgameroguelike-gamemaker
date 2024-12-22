@@ -6,8 +6,8 @@
   "name":"obj_backgroud_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"menu",
-    "path":"folders/Objects/menu.yy",
+    "name":"Game",
+    "path":"Game.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,4 +1,5 @@
 event_inherited();
+if(instance_exists(obj_lencap)){ exit; }
 if (instance_exists(center_object)) {
 
     angle += rotate_speed;

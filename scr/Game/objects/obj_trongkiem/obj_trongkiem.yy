@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite8",
-    "path":"sprites/Sprite8/Sprite8.yy",
+    "name":"spr_chem_1",
+    "path":"sprites/spr_chem_1/spr_chem_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

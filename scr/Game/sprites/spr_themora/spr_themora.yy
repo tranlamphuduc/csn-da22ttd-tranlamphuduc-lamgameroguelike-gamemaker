@@ -19,6 +19,7 @@
   "height":220,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"dc599f0a-4a79-46d8-a31b-25a41a4187cc","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"dc599f0a-4a79-46d8-a31b-25a41a4187cc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"ddf50018-48db-4141-8e4b-89565aef5b71","blendMode":0,"displayName":"default","isLocked":false,"name":"ddf50018-48db-4141-8e4b-89565aef5b71","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_themora",

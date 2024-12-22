@@ -6,7 +6,7 @@ if (instance_exists(obj_lencap)) {
 else
 {
 	arrow.direction = direction_to_noelle;
-	arrow.speed = 2;
+	arrow.speed = 1.5;
 	arrow.image_angle = arrow.direction;
 
 	// Dừng quái lại trong 0.5 giây
