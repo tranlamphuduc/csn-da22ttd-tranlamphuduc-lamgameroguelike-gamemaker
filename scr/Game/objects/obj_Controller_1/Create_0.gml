@@ -17,7 +17,7 @@ alarm[4] = alaTime4;
 alaTime5  = 28800;
 alarm[5] = alaTime5; 
 
-alaTime6  = 33600;
+alaTime6  = 60;
 alarm[6] = alaTime6; 
 
 alarm[7] = alaTime2; 

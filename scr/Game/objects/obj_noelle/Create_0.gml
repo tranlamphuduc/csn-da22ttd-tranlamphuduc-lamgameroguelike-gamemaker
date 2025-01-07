@@ -36,7 +36,7 @@ slot[3] = "bom";
 slot[4] = "hoimau";
 
 dmg_congthem = 0;
-dmg_trongkiem   = 2 + global.dmgnang + dmg_congthem;
+dmg_trongkiem   = 2000 + global.dmgnang + dmg_congthem;
 dmg_sach        = 3 + global.dmgnang + dmg_congthem;
 dmg_ten         = 2 + global.dmgnang + dmg_congthem;
 dmg_banhxelua = 2 + global.dmgnang + dmg_congthem;
